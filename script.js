@@ -1,4 +1,5 @@
 // Smooth scrolling
+
 document.querySelectorAll('a[href^="#"]').forEach(link => {
 
     link.addEventListener("click", function(event) {
@@ -23,6 +24,7 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
 
 
 // Contact form
+
 const contactForm = document.querySelector(".contact-form");
 
 if (contactForm) {

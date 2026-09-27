@@ -1,7 +1,3 @@
-/* ============================= */
-/* GENERAL */
-/* ============================= */
-
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +8,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: #090914;
-    color: #ffffff;
+    color: white;
     line-height: 1.7;
 }
 
@@ -29,7 +25,7 @@ a {
     text-align: center;
     font-size: 42px;
     margin-bottom: 50px;
-    color: #ffffff;
+    color: white;
 }
 
 .section-title::after {
@@ -43,9 +39,7 @@ a {
 }
 
 
-/* ============================= */
 /* NAVBAR */
-/* ============================= */
 
 header {
     position: fixed;
@@ -84,7 +78,7 @@ header {
 }
 
 .nav-links a {
-    color: #ffffff;
+    color: white;
     font-size: 14px;
     transition: 0.3s;
 }
@@ -94,9 +88,7 @@ header {
 }
 
 
-/* ============================= */
 /* HERO */
-/* ============================= */
 
 .hero {
     min-height: 100vh;
@@ -120,13 +112,12 @@ header {
 .small-title {
     color: #b77cff;
     font-size: 20px;
-    margin-bottom: 10px;
 }
 
 .hero h1 {
     font-size: 65px;
     line-height: 1.1;
-    margin-bottom: 20px;
+    margin: 10px 0 20px;
 }
 
 .hero h2 {
@@ -161,7 +152,7 @@ header {
     border-radius: 8px;
 
     background: #a86cff;
-    color: #ffffff;
+    color: white;
 
     font-weight: bold;
 
@@ -182,7 +173,7 @@ header {
 
 .btn-outline:hover {
     background: #a86cff;
-    color: #ffffff;
+    color: white;
 }
 
 .hero-image {
@@ -197,14 +188,11 @@ header {
 
     border: 2px solid #a86cff;
 
-    box-shadow:
-        0 0 35px rgba(168, 108, 255, 0.25);
+    box-shadow: 0 0 35px rgba(168, 108, 255, 0.25);
 }
 
 
-/* ============================= */
 /* ABOUT */
-/* ============================= */
 
 .about-box {
     max-width: 950px;
@@ -224,9 +212,7 @@ header {
 }
 
 
-/* ============================= */
 /* EDUCATION */
-/* ============================= */
 
 .education-container {
     max-width: 1100px;
@@ -248,8 +234,6 @@ header {
     border: 1px solid rgba(168, 108, 255, 0.5);
 
     transition: 0.3s;
-
-    position: relative;
 }
 
 .education-card:hover {
@@ -257,13 +241,12 @@ header {
 
     border-color: #b77cff;
 
-    box-shadow:
-        0 10px 30px rgba(168, 108, 255, 0.18);
+    box-shadow: 0 10px 30px rgba(168, 108, 255, 0.18);
 }
 
 .education-icon {
     font-size: 35px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 
 .education-year {
@@ -280,8 +263,6 @@ header {
     font-size: 21px;
 
     margin-bottom: 12px;
-
-    color: #ffffff;
 }
 
 .education-card p {
@@ -295,9 +276,7 @@ header {
 }
 
 
-/* ============================= */
 /* SKILLS */
-/* ============================= */
 
 .skills-grid {
     max-width: 1100px;
@@ -326,9 +305,6 @@ header {
     transform: translateY(-5px);
 
     border-color: #b77cff;
-
-    box-shadow:
-        0 8px 25px rgba(168, 108, 255, 0.15);
 }
 
 .skill-icon {
@@ -346,14 +322,10 @@ header {
 
 .skill-card p {
     color: #d0d0da;
-
-    font-size: 15px;
 }
 
 
-/* ============================= */
 /* PROJECTS */
-/* ============================= */
 
 .projects-grid {
     max-width: 1100px;
@@ -386,7 +358,6 @@ header {
 
 .project-card img {
     width: 100%;
-
     height: 260px;
 
     object-fit: cover;
@@ -400,13 +371,12 @@ header {
 
 .project-icon {
     font-size: 30px;
-    margin-bottom: 8px;
 }
 
 .project-content h3 {
     color: #b77cff;
 
-    margin-bottom: 10px;
+    margin: 8px 0 10px;
 
     font-size: 22px;
 }
@@ -416,9 +386,7 @@ header {
 }
 
 
-/* ============================= */
 /* CERTIFICATIONS */
-/* ============================= */
 
 .certifications-grid {
     max-width: 1000px;
@@ -469,9 +437,7 @@ header {
 }
 
 
-/* ============================= */
 /* CONTACT */
-/* ============================= */
 
 .contact-container {
     max-width: 1100px;
@@ -535,10 +501,6 @@ header {
 
 .contact-item strong {
     display: block;
-
-    color: #ffffff;
-
-    margin-bottom: 3px;
 }
 
 .contact-item a {
@@ -567,39 +529,24 @@ header {
 
     background: #111122;
 
-    color: #ffffff;
+    color: white;
 
     outline: none;
 
     font-family: inherit;
-
-    font-size: 15px;
 }
 
 .contact-form input:focus,
 .contact-form textarea:focus {
     border-color: #b77cff;
-
-    box-shadow:
-        0 0 10px rgba(168, 108, 255, 0.15);
 }
 
 .contact-form textarea {
     resize: vertical;
 }
 
-.contact-form button {
-    cursor: pointer;
 
-    font-family: inherit;
-
-    font-size: 15px;
-}
-
-
-/* ============================= */
 /* FOOTER */
-/* ============================= */
 
 footer {
     text-align: center;
@@ -612,9 +559,7 @@ footer {
 }
 
 
-/* ============================= */
 /* RESPONSIVE */
-/* ============================= */
 
 @media (max-width: 1000px) {
 
@@ -633,7 +578,6 @@ footer {
     .skills-grid {
         grid-template-columns: repeat(2, 1fr);
     }
-
 }
 
 
@@ -651,8 +595,6 @@ footer {
         flex-wrap: wrap;
 
         justify-content: center;
-
-        gap: 8px 14px;
     }
 
     .hero {
@@ -677,7 +619,6 @@ footer {
 
     .hero-image {
         flex: none;
-
         width: 80%;
     }
 
@@ -692,7 +633,6 @@ footer {
     .contact-container {
         grid-template-columns: 1fr;
     }
-
 }
 
 
@@ -717,5 +657,4 @@ footer {
     .hero-image {
         width: 95%;
     }
-
 }
