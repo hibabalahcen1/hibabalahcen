@@ -1,18 +1,15 @@
-// ===============================
-// SMOOTH SCROLL
-// ===============================
-
+// Smooth scrolling
 document.querySelectorAll('a[href^="#"]').forEach(link => {
 
-    link.addEventListener("click", function (e) {
+    link.addEventListener("click", function(event) {
+
+        event.preventDefault();
 
         const target = document.querySelector(
             this.getAttribute("href")
         );
 
         if (target) {
-
-            e.preventDefault();
 
             target.scrollIntoView({
                 behavior: "smooth"
@@ -25,21 +22,18 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
 });
 
 
-// ===============================
-// CONTACT FORM
-// ===============================
+// Contact form
+const contactForm = document.querySelector(".contact-form");
 
-const form = document.querySelector(".contact-form form");
+if (contactForm) {
 
-if (form) {
+    contactForm.addEventListener("submit", function() {
 
-    form.addEventListener("submit", function () {
+        const button = this.querySelector("button");
 
-        const button = form.querySelector("button");
-
-        button.textContent = "Envoi en cours...";
-
-        button.disabled = true;
+        if (button) {
+            button.textContent = "⏳ Envoi en cours...";
+        }
 
     });
 
