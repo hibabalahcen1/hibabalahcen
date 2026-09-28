@@ -514,7 +514,7 @@ header {
 
     flex-direction: column;
 
-    gap: 18px;
+    gap: 5px;
 }
 
 .contact-form input,
